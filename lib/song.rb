@@ -63,6 +63,8 @@ def self.alphabetical
 
 def new_from_filename
   
+end  
+  
 end
   
   
