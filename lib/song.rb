@@ -41,14 +41,14 @@ end
 
 def self.find_by_name(name)
   @@all.find do |song|
-    if song.name == name
-      return song
-    end
+    song.name == name
+  
   end  
 end
 
 def self.find_or_create_by_name(name)
    found_song = self.find_by_name(name)
+   binding.pry
    if found_song
      found_song
    else 
