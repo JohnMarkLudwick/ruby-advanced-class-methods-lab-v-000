@@ -40,7 +40,7 @@ def self.create_by_name(new_song_name)
 end
 
 def self.find_by_name(name)
-  @@all.each do |song|
+  @@all.find do |song|
     if song.name == name
       return song
     end
