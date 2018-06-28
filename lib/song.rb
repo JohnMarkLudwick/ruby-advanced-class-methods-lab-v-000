@@ -61,7 +61,7 @@ def self.alphabetical
     self.all.sort_by { |x| x.name}
   end 
 
-def new_from_filename
+def new_from_filename(mp3_formatted_file)
   
   Song.new
   
