@@ -63,13 +63,7 @@ def self.alphabetical
     self.all.sort_by { |x| x.name}
   end 
 
-def self.new_from_filename(mp3_formatted_file)
-    c = self.new 
-    c.name = mp3_formatted_file.split(/[^a-zA-Z\s]|\s-\s/)[1] 
-    c.artist_name = mp3_formatted_file.split(/[^a-zA-Z\s]|\s-\s/)[0]
-    c
-  end 
-  
+
   
 end
   
