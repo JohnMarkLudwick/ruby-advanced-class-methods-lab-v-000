@@ -35,8 +35,8 @@ def self.new_by_name(string_name_of_the_song)
 def self.create_by_name(name)
   
   s = self.new
-  s.save
   s.name = name
+  s.save
   s
 end
 
