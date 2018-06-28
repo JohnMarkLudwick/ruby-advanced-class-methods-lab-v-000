@@ -30,7 +30,7 @@ def self.new_by_name(string_name_of_the_song)
     # there's nothing in the instructions about saving to the @@all class variable
   end 
 
-def self.create_by_name(s.create)
+def self.create_by_name()
   
   s = self.new
   s.create = name
