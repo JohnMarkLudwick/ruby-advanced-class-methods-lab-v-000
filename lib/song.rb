@@ -22,11 +22,11 @@ class Song
   end 
   
 
+
+end
+
+
+
 song = Song.new_by_name("The Middle")
 song.name
 
-    
-    
-
-
-end
