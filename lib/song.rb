@@ -48,12 +48,12 @@ def self.find_by_name(name)
   end  
 end
 
-def find_or_create_by_name(name)
+def self.find_or_create_by_name(name)
    @@all.each do |song|
     if song.name == name
       return song
     else
-      song.New
+      self.create_by_name(name)
     end
   end  
   
