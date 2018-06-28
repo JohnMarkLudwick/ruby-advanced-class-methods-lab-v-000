@@ -41,7 +41,8 @@ def self.create_by_name(name)
 end
 
 def self.find_by_name(name)
-  @@all.each do |x| 
+  @@all.each do |x|
+    
   binding.pry
   
   
