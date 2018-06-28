@@ -48,7 +48,8 @@ def self.find_by_name(name)
   end  
 end
 
-def find_or_create_by_name
+def find_or_create_by_name(name)
+  
   
 end
   
