@@ -38,7 +38,10 @@ def self.create_by_name(name)
   s
 end
 
-def self.find_by_name
+def self.find_by_name(name)
+  s = 
+  
+  
 end
 
 
