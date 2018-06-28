@@ -90,6 +90,10 @@ def self.create_from_filename(mp3_formatted_file)
   end 
   
   
+def self.destroy_all
+    self.all.clear
+  end
+  
 end
   
   
