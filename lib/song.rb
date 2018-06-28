@@ -13,7 +13,10 @@ class Song
     self.class.all << self
   end
 
-  
+  def Song.create(title)
+    @@all = title
+    title << self
+  end
 
 
 end
