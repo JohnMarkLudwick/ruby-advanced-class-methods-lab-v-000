@@ -53,7 +53,7 @@ def self.find_or_create_by_name(name)
    if found_song
      return found_song
    else 
-      self.create(name)
+      self.create_by_name(name)
         binding.pry
 
    end
