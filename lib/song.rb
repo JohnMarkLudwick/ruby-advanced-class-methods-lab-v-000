@@ -38,11 +38,8 @@ def self.create_by_name()
 end
 
 
-
 end
 
 
 
-song = Song.new_by_name("The Middle")
-song.name
 
